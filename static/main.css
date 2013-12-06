@@ -53,6 +53,35 @@ a {
 
 a:hover{
 
-	color: #E6E6E6;
+	font-style: italic;
 
+}
+
+li {
+	list-style: none;
+	color: white;
+}
+
+li.nav_tab:hover {
+	color: #ffffff;
+	font-style: italic;
+}
+
+li.active {
+	font-style: italic;
+}
+
+ul.nav_tabs {
+	list-style-type: none;
+	margin: 10px 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+ul.stuff {
+	list-style-type: none;
+}
+
+ul.nav_tabs li.nav_tab {
+	display: inline;
 }
